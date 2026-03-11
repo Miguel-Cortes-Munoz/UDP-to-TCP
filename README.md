@@ -50,10 +50,6 @@ Edit
 
 ./sender 127.0.0.1 8080 file_to_send.txt
 
-pgsql
-Copy
-Edit
-
 ## How It Works
 
 - The sender splits the file into packets, each with a sequence number and CRC32 checksum.
